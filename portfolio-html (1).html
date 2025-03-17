@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-fade-in">Hello, I'm <span class="highlight">Your Name</span></h1>
+                    <h2 class="animate-fade-in delay-1">Web Developer & Designer</h2>
+                    <p class="animate-fade-in delay-2">Crafting beautiful and functional digital experiences</p>
+                    <div class="cta-buttons animate-fade-in delay-3">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links animate-fade-in delay-4">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image animate-slide-in">
+                    <div class="blob-animation"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image animate-slide-in">
+                        <img src="/api/placeholder/400/500" alt="Profile photo">
+                    </div>
+                    <div class="about-text">
+                        <h3 class="animate-fade-in">Who I Am</h3>
+                        <p class="animate-fade-in delay-1">
+                            I'm a passionate web developer with a keen eye for design and a love for creating seamless user experiences. With over 5 years of experience in the field, I've worked on a variety of projects ranging from simple landing pages to complex web applications.
+                        </p>
+                        <p class="animate-fade-in delay-2">
+                            My journey in web development started when I was in college, where I discovered my passion for coding and problem-solving. Since then, I've been constantly learning and improving my skills to stay up-to-date with the latest technologies and trends in the industry.
+                        </p>
+                        <div class="personal-info animate-fade-in delay-3">
+                            <div class="info-item">
+                                <h4>Name:</h4>
+                                <p>Your Name</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Email:</h4>
+                                <p>your.email@example.com</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Location:</h4>
+                                <p>City, Country</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Availability:</h4>
+                                <p>Open to opportunities</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn primary animate-fade-in delay-4">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="expertise">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Expertise</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Front-end Development</h3>
+                        <div class="skills">
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>HTML/CSS</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Back-end Development</h3>
+                        <div class="skills">
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>Node.js</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>Express</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>MongoDB</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design & Tools</h3>
+                        <div class="skills">
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>Figma</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>Git</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item animate-progress">
+                                <div class="skill-info">
+                                    <span>Responsive Design</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="app">App Design</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card animate-fade-in" data-category="web">
+                        <div class="project-img">
+                            <img src="/api/placeholder/600/400" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Website</h3>
+                            <p>A fully responsive e-commerce platform with payment integration</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-fade-in delay-1" data-category="app">
+                        <div class="project-img">
+                            <img src="/api/placeholder/600/400" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management App</h3>
+                            <p>A clean and intuitive task management application</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+                                <span>LocalStorage</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-fade-in delay-2" data-category="ui">
+                        <div class="project-img">
+                            <img src="/api/placeholder/600/400" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Travel Agency Website</h3>
+                            <p>A beautiful website design for a travel agency</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-fade-in delay-3" data-category="web">
+                        <div class="project-img">
+                            <img src="/api/placeholder/600/400" alt="Project 4">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Template</h3>
+                            <p>A customizable portfolio template for developers</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Styled Components</span>
+                                <span>Framer Motion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card animate-fade-in">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                        <div class="contact-card animate-fade-in delay-1">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                        <div class="contact-card animate-fade-in delay-2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>City, Country</p>
+                        </div>
+                        <div class="social-links animate-fade-in delay-3">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container animate-slide-in">
+                        <form id="contact
